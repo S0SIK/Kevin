@@ -1,0 +1,99 @@
+body {
+  background-image: url(../img/Iris-góra.webp);
+  color: #ff0000;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+  background-size: 100%;
+}
+
+.desktop {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.window {
+  text-align: center;
+  width: 600px; /* Zwiększona szerokość */
+  height: 400px; /* Zwiększona wysokość */
+  border: 1px solid #ccc;
+  background-color: #000000;
+  overflow: auto; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.title-bar {
+  background-color: #eee;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.close {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+}
+
+.strona {
+  width: 50%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.lewa {
+  float: left;
+}
+
+.prawa {
+  float: right;
+}
+
+.tytul {
+  font-size: 24px; /* Zwiększony rozmiar czcionki tytułu */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#text {
+  width: 100%;
+  color: #00ff00;
+  font-family: monospace;
+  font-size: 16px;
+  background-color: #000000; 
+  overflow-y: auto; 
+  padding: 10px;
+}
+
+#text div {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #ff0000; 
+  color: #fff; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  border-radius: 5px; 
+  border: none; 
+  font-weight: bold; 
+  cursor: pointer; 
+}
+
+.button:hover { 
+  background-color: #cc0000; 
+}
