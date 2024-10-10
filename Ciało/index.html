@@ -1,0 +1,64 @@
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="Góra">
+  <title>Góra</title>
+  <link rel="stylesheet" href="styl.css" type="text/css" />
+  <script src="script.js" defer></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/góra.png">
+</head>
+<body>
+  <div class="desktop">
+    <div class="login-form">
+      <h1>Zaloguj się</h1>
+      <form id="login-form">
+        <label for="password">Hasło:</label>
+        <input type="password" id="password">
+        <button type="submit">Zaloguj</button>
+      </form>
+    </div>
+    <div class="window" style="display: none;"> <div class="title-bar">
+      <span class="title">Kevin</span>
+      <button class="close">Zamknij</button>
+    </div>
+    <div class="content">
+      <div class="strona lewa" id="strona1">
+        <div class="tytul">Pamięć Obiektu</div>
+        <div id="text">
+          <div id="1" data-tooltip="Wspomnienia z aktualną firmą:<br><br> + Wiedza na temat aktualnych przekrętów w firmie." class="tooltip-target">Firma taxi</div>
+          <div id="2" data-tooltip="Świadomość posiadania własnej organizacji i współprac z innymi:<br><br> + Kontakt z mafią." class="tooltip-target">Organizacja</div>
+          <div id="3" data-tooltip="Wspomnienia związane z Ohio:<br><br> + Negatywny powód picia." class="tooltip-target">Historia z Ohio</div>
+          <div id="4" data-tooltip="Wspomnienia z byłą pracą jak i historią Ohio:<br><Br> + Niechęć do pracy na mechaniku." class="tooltip-target">Niechęć do motoryzacji</div>
+          <div id="5" data-tooltip="Wspomnienia z odebraniem firmy jak i starych taxi:<br><Br> + Nie przepada za pracownikami Doju,<br> + W ostateczności korzysta z usług DoJu." class="tooltip-target">Stosunek do DoJu</div>
+          <div id="6" data-tooltip="Wspomnienia z aktualną firmą:<br><br> + Relacji z Reyem i innymi w Taxi." class="tooltip-target">Historie związane z Taxi</div>
+          <div id="7" data-tooltip="Wspomnienia z Aurorą:<br><Br> + Świadomość kim była Aurora,<br> + Pamięć o zleceniu na nią,<br> + Świadomość, że chciała zaadoptować Iris." class="tooltip-target">Zlecenie porwania Aurory</div>
+          <div id="8" data-tooltip="Wspomnienia z Syndykatem:<br><Br> + Świadomość, że ktoś chciał go kontrolować,<br> + Chęć zniszczenia ich, gdy się pojawią." class="tooltip-target">Syndykat i zostanie owieczką</div>
+        </div>
+      </div>
+      <div class="strona prawa" id="strona2">
+        <div class="tytul">Pamięć Dysku</div>
+        <div id="text">
+          <div id="11" data-tooltip="Wspomnienia z Starym Taxi:<br><Br> + Wiedza na temat szacher-macher jakie kiedyś robił." class="tooltip-target">Taxi Molo i Aparty</div>
+          <div id="12" data-tooltip="Wspomnienia z Pierwszej restauracji:<br><Br> + Zajawka do pracy na restauracji,<br> + Pozytywne podejście do Doju." class="tooltip-target">All'Oro</div>
+          <div id="13" data-tooltip="Wspomnienia z Merryweather:<br><Br> + Wspomnienia z Michaelem Krossem." class="tooltip-target">Merryweather</div>
+          <div id="14" data-tooltip="Wspomnienia z Ochroną:<br><Br> + Chęć wejścia w strukturę DoJu." class="tooltip-target">DoJ Ochrona</div>
+          <div id="15" data-tooltip="Wspomnienia z UwU:<br><Br> + Chęć ożywienia restauracji." class="tooltip-target">UwU </div>
+          <div id="16" data-tooltip="Wspomnienia z W.B.:<br><Br> + Pamięć o Histori z nim i jego wpływ na Iris" class="tooltip-target">W.B.</div>
+          <div id="17" data-tooltip="Wspomnienia z Lio:<br><Br> + Świadomość o wyjścia za mąż Iris." class="tooltip-target">Wesele Lio/Iris</div>
+          <div id="18" data-tooltip="Wspomnienia z Iris:<br><Br> + Ogólna wiedza kim jest i jaj Historia." class="tooltip-target">Kim jest Iris</div>
+          <div id="19" data-tooltip="Wspomnienia z Iris:<br><Br> + Uczucie jakiegoś połączenia z Iris." class="tooltip-target">Relacje Iris</div>
+          <div id="20" data-tooltip="Wspomnienia z uznaniem Iris jako Córki:<br><Br> + Patrzenie na Iris jak na Córkę." class="tooltip-target">Adopcja Iris</div>
+          <div id="31" data-tooltip="Wspomnienia z Kevinem:<br><Br> + Świadomość wszystkich wydażeń z Kevinem,<br> + Wiedza na temat tego kto tak naprawdę za tym stał." class="tooltip-target">Usterka Kevina</div>
+        </div>
+      </div>
+    </div>
+    <button class="przeniesDane">Przenieś dane</button>
+    <div class="tooltip-container">Zmiany:
+      <div class="tooltip" id="tooltipText"></div>
+    </div>
+</div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+body {
+  background-color: #000;
+  background-image: url(../img/Iris-góra.webp);
+  color: #ff0000;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+  background-size: 100%;
+}
+
+#txt {
+margin-top: 32px;
+}
+
+.notatka {
+  flex: 1;
+  width: 48%;
+  height: 70px;
+  margin: 10px 1%;
+  background-color: #333;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer; 
+}
+.notatka2 {
+  flex: 1;
+  width: 48%;
+  height: 70px;
+  margin: 10px 1%;
+  background-color: #333;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer; 
+}
+
+#notatki {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.notatka h1 {
+  margin: 15px 0;
+}
+.notatka2 h1 {
+  margin: 15px 0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #cc0000;
+}
