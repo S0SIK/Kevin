@@ -21,7 +21,11 @@ function closeModal() {
 }
 
 const notatka = document.querySelector('.notatka2[data-title="DJH.89867C5.77 Iris"]');
+const notatka2 = document.querySelector('.notatka2[data-title="DJH.8634738.34 Ochrona"]');
 
 notatka.addEventListener('click', () => {
+  alert('Nie można otworzyć pliku. Plik jest uszkodzony.');
+});
+notatka2.addEventListener('click', () => {
   alert('Nie można otworzyć pliku. Plik jest uszkodzony.');
 });
