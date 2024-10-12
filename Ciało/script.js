@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   przeniesDaneButton.addEventListener("click", function () {
     if (confirm("Czy chcesz przenieść dane?")) {
-      window.location.href = "../end/index.html";
+      window.location.href = "../End/index.html";
     }
   });
 
